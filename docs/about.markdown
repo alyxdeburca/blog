@@ -7,7 +7,7 @@ permalink: /about/
 <h2 align='center'> Hi, I'm Alyx 👋🧑🏻‍💻 </h2>
 
 <p align="center">
-  <br><img src="https://github.com/alyxdeburca/alyxdeburca/blob/master/Developer.gif" width="450px"><br><br>
+  <br><img src="https://github.com/alyxdeburca/alyxdeburca/raw/master/Developer.gif" width="450px"><br><br>
   <samp> I'm a software developer from Galway, Ireland. I'm passionate about *NIX and have used GNU/Linux based operating systems for the past 2 and a half years. Most of the projects found on my GitHub
   </samp>
   <br>
@@ -42,7 +42,7 @@ permalink: /about/
 </p>
 <hr>
 
-<img src="https://github.com/alyxdeburca/alyxdeburca/blob/master/wave.svg" />
+<img src="https://github.com/alyxdeburca/alyxdeburca/raw/master/wave.svg" />
 
 <p align='center'><a href="#"><img src="https://img.shields.io/github/license/alyxdeburca/alyxdeburca?style=for-the-badge" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
   </p>
