@@ -22,8 +22,8 @@ title: Alyx's Blog
 email: alyx@alyx.site
 description: >- # this means to ignore newlines until "baseurl:"
   Random technology crap and various life updates. Fresh from the mind of a teenager
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "alyxdeburca.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "blog.alyx.site" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: alyxburke
 github_username:  alyxdeburca
 
