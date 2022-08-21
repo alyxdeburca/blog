@@ -8,7 +8,7 @@ permalink: /about/
 
 <p align="center">
   <br><img src="https://github.com/alyxdeburca/alyxdeburca/raw/master/Developer.gif" width="450px"><br><br>
-  <samp> I'm a software developer from Galway, Ireland. I'm passionate about *NIX and have used GNU/Linux based operating systems for the past 2 and a half years. Most of the projects found on my GitHub
+  <samp> I'm a secondary school student studying Computer Science from Galway, Ireland. I'm passionate about *NIX and have used GNU/Linux based operating systems for the past 2 and a half years. Most of the projects found on my GitHub
   </samp>
   <br>
   
@@ -24,7 +24,7 @@ permalink: /about/
 
 
 <p align='center'>
-  <a href="https://twitter.com/alyxvanced"><img src="https://img.shields.io/twitter/url?style=for-the-badge&logo=twitter&url=https%3A%2F%2Ftwitter.com%2Falyxvanced" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://twitter.com/alyxburke"><img src="https://img.shields.io/twitter/url?style=for-the-badge&logo=twitter&url=https%3A%2F%2Ftwitter.com%2Falyxburke" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="mailto:alyx@alyx.site"><img src="https://img.shields.io/badge/email-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 

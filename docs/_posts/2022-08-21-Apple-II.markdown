@@ -1,16 +1,17 @@
 ---
 layout: post
 title:  "Apple II; The Computer that started a Megacorporation"
-date:   2022-08-21 21:34:00 +0000
 categories: technology vintage-computing
+published: true
 ---
-<img src="https://i.imgur.com/n10OhsN.png" style="width:35%"></img>
+
+<img src="https://i.ibb.co/NtMFpZd/236814ca-0f31-47af-a766-8d1dae38f8dc.png" style="width:35%">
 
 The Apple II was an 8-bit home computer designed by Steve Wozniak and Steve Jobs in 1977 that kickstarted Apple Inc's journey towards being the multi-trillion dollar company it is today.
 
 The Apple II, whose internals were designed by Steve Wozniak and who's attractive beige shell was the brainchild of Steve Jobs has since become a staple of home computing with it's modern design language, exclusive features which have since become commonplace in home computers and Apple's iconic 6 colour Apple Logo.
 
-<img style="width:5%" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Apple_Computer_Logo_rainbow.svg"></img>
+<img style="width:5%" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Apple_Computer_Logo_rainbow.svg">
 
 But just *why* has the Apple II remained relevant 45 years after it's introduction in 1977?
 
