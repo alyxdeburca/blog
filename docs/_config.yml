@@ -28,9 +28,11 @@ twitter_username: alyxburke
 github_username:  alyxdeburca
 
 # Build settings
-theme: minima
+theme: minima 
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-include-cache
 future: true
 # Exclude from processing.
 # The following items will not be processed, by default.
