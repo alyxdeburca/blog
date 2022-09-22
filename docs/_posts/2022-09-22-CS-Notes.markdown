@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Computer Science Notes 2022-09-22"
+categories: [school, computer-science]
+published: true
+hidden: 1
+---
+## **Algorithms**
+# **Representing Algorithms**
+# Natural Language
+# Flowchart Symbols
+![Flowchart Symbols](https://wcs.smartdraw.com/flowchart/img/basic-symbols-table.jpg?bn=15100111846)
+# Pseudocode
+    INPUT AGE
+    IF AGE >= 17
+        ISSUE LICENCE
+    ELSE IF AGE < 12
+        TELL USER TO PI$$ OFF
+    ELSE
+        TELL USER TO WAIT X YEARS
+
+# Programming Languages
+# Mathematics
