@@ -49,5 +49,5 @@ print("Key found at: ", location)
 Formula for efficency
 ```python
 def algo(num_hits, dataset):
-    print(str(num_hits+2*dataset+3))
+    return(num_hits+2*dataset+3)
 ```
