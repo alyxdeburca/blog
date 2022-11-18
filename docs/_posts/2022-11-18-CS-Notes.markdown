@@ -10,4 +10,4 @@ hidden: true
 
 ### Project Plan Gannt Chart
 
-![Gannt Chart](https://i.imgur.com/muFkjG7l.png)
+![Gannt Chart showing the time required for each stage of a waterfall planning technique](https://i.imgur.com/muFkjG7l.png)
