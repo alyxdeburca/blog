@@ -5,3 +5,9 @@ categories: [school, computer-science]
 published: true
 hidden: true
 ---
+
+## SDLC Project Planning
+
+### Project Plan Gannt Chart
+
+![Gannt Chart](https://i.imgur.com/muFkjG7l.png)
