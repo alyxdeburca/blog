@@ -44,7 +44,7 @@ It contains six phases:
 5. maintenance
 6. retirement
 
-</br>
+<br>
 
 + Flexible, collaborative approach to a software project
 + Emphasis on the Product rather than the Process
