@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Computer Science Notes 2022-10-07"
+title:  "Computer Science Notes 2022-11-18"
 categories: [school, computer-science]
 published: true
 hidden: true
