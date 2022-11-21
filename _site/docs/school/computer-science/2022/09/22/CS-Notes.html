@@ -1,5 +1,5 @@
-<h2 id="algorithms"><strong>Algorithms</strong></h2>
-<h1 id="representing-algorithms"><strong>Representing Algorithms</strong></h1>
+<h3 id="algorithms"><strong>Algorithms</strong></h3>
+<h3 id="representing-algorithms"><strong>Representing Algorithms</strong></h3>
 <h1 id="natural-language">Natural Language</h1>
 <h1 id="flowchart-symbols">Flowchart Symbols</h1>
 <p><img src="https://wcs.smartdraw.com/flowchart/img/basic-symbols-table.jpg?bn=15100111846" alt="Flowchart Symbols" /></p>
@@ -15,7 +15,8 @@
 <h1 id="programming-languages">Programming Languages</h1>
 <h1 id="mathematics">Mathematics</h1>
 
-<h1 id="work-and-efficiency">Work and Efficiency</h1>
+<h3 id="work-and-efficiency"><strong>Work and Efficiency</strong></h3>
+<p>Efficient, working model</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">myList</span> <span class="o">=</span> <span class="p">[</span><span class="mi">85</span><span class="p">,</span> <span class="mi">24</span><span class="p">,</span> <span class="mi">63</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">31</span><span class="p">,</span> <span class="mi">96</span><span class="p">,</span> <span class="mi">50</span><span class="p">]</span>
 <span class="n">key</span> <span class="o">=</span> <span class="mi">17</span>
 <span class="n">location</span> <span class="o">=</span> <span class="bp">None</span>
@@ -26,4 +27,16 @@
     <span class="k">print</span><span class="p">(</span><span class="s">"Key not found"</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
     <span class="k">print</span><span class="p">(</span><span class="s">"Key found at: "</span><span class="p">,</span> <span class="n">location</span><span class="p">)</span>
+</code></pre></div></div>
+<p>Inefficient, non-working model</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">myList</span> <span class="o">=</span> <span class="p">[</span><span class="mi">17</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">17</span><span class="p">]</span>
+<span class="n">key</span> <span class="o">=</span> <span class="mi">17</span>
+<span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">myList</span><span class="p">)):</span>
+    <span class="k">if</span> <span class="n">myList</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">==</span> <span class="n">key</span><span class="p">:</span>
+        <span class="n">location</span> <span class="o">=</span> <span class="n">index</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Key found at: "</span><span class="p">,</span> <span class="n">location</span><span class="p">)</span>
+</code></pre></div></div>
+<p>Formula for efficency</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">algo</span><span class="p">(</span><span class="n">num_hits</span><span class="p">,</span> <span class="n">dataset</span><span class="p">):</span>
+    <span class="k">return</span><span class="p">(</span><span class="n">num_hits</span><span class="o">+</span><span class="mi">2</span><span class="o">*</span><span class="n">dataset</span><span class="o">+</span><span class="mi">3</span><span class="p">)</span>
 </code></pre></div></div>
