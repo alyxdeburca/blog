@@ -1,0 +1,80 @@
+---
+layout: post
+title:  "Leaving Cert Computer Science 2022"
+categories: school
+published: true
+--
+
+1. Design (approximately 400 words)
+
+My game is designed to meet the objectives set out in the Leaving Certificate Computer Science Coursework Project Brief. The game is designed to be played on a desktop computer and is built using the Pygame library, which allows us to create 2D games using Python. The game follows a turn-based battle system where players choose their moves from a list of available options.
+
+The game's main menu provides options to start a new game, [-------], or exit the game. Once the player starts a new game, they are taken to the game screen where they are given 3 characters and their opponent is given 3 different characters. Each character has their own set of attributes, including health points (HP), attack, defense, and speed. The player's objective is to defeat their opponent's character by reducing their HP to zero.
+
+During the battle, each character can choose one move from a list of two to four moves. Each move has its own type and power, which determines how much damage it will inflict on the opponent.
+
+I have designed the game to be intuitive and easy to use. The game's interface is simple and straightforward, with clear instructions provided at every stage of the game.
+
+In order to further improve the game's overall experience, I may consider adding more features to enhance the gameplay. For example, I could include a leveling system where characters gain experience points and level up after winning battles. This could unlock new moves or improve their existing attributes, making battles more challenging and rewarding as the player progresses.
+
+Another idea could be to introduce items that can be used during battle, such as healing potions or power-ups that temporarily increase a character's stats. This would add an additional layer of strategy to battles and give players more options to choose from when deciding on their moves.
+
+Additionally, I could consider adding several types of battles or game modes to keep the game fresh and engaging. For example, I could add a survival mode where the player faces an endless wave of opponents and tries to survive for as long as possible. Alternatively, I could add a multiplayer mode where players can compete against each other online.
+
+It is also important to ensure that the game's graphics and sound effects are engaging and visually appealing. This can help to create a more immersive experience for the player and add to the overall enjoyment of the game.
+
+In summary, there are many ways to enhance the gameplay and overall experience of r game. By adding features like a leveling system, items, different game modes, and improving the game's graphics and sound effects, I can make the game more challenging, rewarding, and entertaining for my players.
+
+1. Implementation (approximately 500 words)
+
+To implement my game, I used the Pygame library and Python programming language. I started by creating the game's main menu and game screen using Pygame's built-in functions for creating graphical user interfaces. I then created the character selection screen and move selection screen, as Ill as the battle system and Pokémon capture system.
+
+One of the main problems I encountered during the implementation was optimizing the game's performance. I wanted to ensure that the game ran smoothly on a range of different computer systems, so I had to optimize the game's graphics and code to ensure that it was not too resource-intensive. I solved this problem by reducing the game's resolution and simplifying the game's graphics.
+
+An algorithm that was essential in creating my project was the AI algorithm that I used to control the opponent's character. I used a simple decision tree algorithm to determine the opponent's moves, which ensured that the opponent's moves were not completely random.
+
+To further enhance my game development skills, I may want to consider exploring other game development frameworks and programming languages. Learning a new framework or language can broaden my skills and provide myself with new tools and techniques to create more complex and engaging games.
+
+In addition to technical skills, it is also important to have a solid understanding of game design principles. This includes understanding the player's motivation, engagement, and feedback loops. I may want to consider studying game design theory and learning from existing successful games to better understand what makes a game enjoyable and engaging.
+
+Another area to consider is game monetization strategies. If I am interested in developing games as a career, it is important to understand the diverse ways games can generate revenue, such as through in-game purchases, advertisements, or subscription models. By understanding these strategies, I can design games that are both fun and profitable.
+
+Finally, testing and debugging are important aspects of game development. Testing ensures that the game is free of bugs and glitches and that the gameplay is balanced and enjoyable. I may want to consider utilizing automated testing tools and conducting user testing to gather feedback and improve the game's design.
+
+Overall, game development is a challenging and rewarding field that requires a combination of technical skills, game design knowledge, and business acumen. By continually learning and expanding my skill set, I can create more engaging and successful games.
+
+1. Testing (approximately 350 words)
+
+I carried out extensive testing on my game to ensure that it was bug-free and playable. I tested the game on a range of different computer systems and operating systems, and I also conducted user testing to gather feedback on the game's usability.
+
+One major problem I encountered during the testing process was with the game's difficulty level. Initially, the game was too difficult, which made it frustrating for players to play. To solve this problem, I adjusted the levels of the player's Pokémon and the opponent's Pokémon. This however resulted in me having the opposite issue; the player was now able to easily defeat the AI almost every time, even with suboptimal play
+
+I created a test table to track my test cases, expected results, and outcomes. The test table included test cases such as checking the game's compatibility with different operating systems, testing the game's performance on low-end hardware, and checking the game's AI behavior.
+
+| **Test Case ID** | **Test Case Description** | **Expected Result** | **Actual Result** | **Notes/Comments** |
+| --- | --- | --- | --- | --- |
+| TC001 | Start game | Game starts | Game starts |
+ |
+| TC002 | Select a Pokémon | Pokémon selected | Pokémon selected |
+ |
+| TC003 | Battle opponent | Win or lose battle | Win or lose battle |
+ |
+| TC004 | Reward/Penalise Player | Winner/Loser Displayed | Only winner text displayed | Further work would be necessary in a future version of the game to record losses as well as wins |
+
+1. Evaluation (approximately 350 words)
+
+Overall, I am satisfied with the final product and believe that it meets the objectives I set out in section 2 of this report.
+
+In addition to meeting the project objectives and requirements, the final product demonstrated some areas for improvement. One major area of improvement is in the user interface design. While the interface is functional and easy to use, it lacks the polish and finesse of commercial-grade games. Adding more animations, sound effects, and transitions would go a long way in making the game feel more immersive and engaging.
+
+In terms of gameplay, the battle mechanics are well-designed and provide a good challenge for players. The addition of status effects and diverse types of Pokémon could add depth to the battles and would require players to think strategically about their moves and Pokémon selection. A campaign mode could be added to provide a satisfactory level of progression and difficulty, with players facing increasingly challenging opponents as they progress through the game.
+
+However, there are areas where the game could be improved or iterated upon in the future. One area is in the user interface, which could be made more intuitive and user-friendly. For example, there could be more detailed information provided about the stats and moves of each Pokémon, making it easier for players to make informed decisions about their battle strategies.
+
+Another area for improvement could be in the game's balance, particularly in relation to the difficulty of certain battles. Some players may find that certain opponents are too difficult to beat, while others may find the game too easy. Balancing the difficulty of battles could help to provide a more enjoyable and engaging experience for all players.
+
+Finally, there could be opportunities to expand the game further, such as adding new Pokémon, moves, or features in future updates. Another potential improvement could be adding more depth to the battle system. While the basic mechanics of type effectiveness, moves, and stats are present, there is room to add more complexity and strategy to the battles. For example, introducing abilities, status conditions, and weather effects could make the battles more interesting and varied.
+
+This could help to keep the game fresh and engaging for players over time.
+
+Overall, the Pokémon game using Pygame provides a solid foundation for a fun and engaging game. With further improvements and iterations, it has the potential to become an even more enjoyable and popular game among players.
