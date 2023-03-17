@@ -29,7 +29,7 @@ In summary, there are many ways to enhance the gameplay and overall experience o
 
 To implement my game, I used the Pygame library and Python programming language. I started by creating the game's main menu and game screen using Pygame's built-in functions for creating graphical user interfaces. I then created the character selection screen and move selection screen, as well as the battle system and Pokémon capture system.
 
-<img src="https://static.wikia.nocookie.net/essentialsdocs/images/7/70/Battle.png/revision/latest?cb=20220523172438" width=49%></img> <img src="https://www.giantbomb.com/a/uploads/scale_medium/0/9740/270122-pok_mon_firered_first_battle.png" width=49%></img>
+![](https://static.wikia.nocookie.net/essentialsdocs/images/7/70/Battle.png/revision/latest?cb=20220523172438) ![](https://www.giantbomb.com/a/uploads/scale_medium/0/9740/270122-pok_mon_firered_first_battle.png)
 
 One of the main problems I encountered during the implementation was optimising the game's performance. I wanted to ensure that the game ran smoothly on a range of different computer systems, so I had to optimise the game's graphics and code to ensure that it was not too resource-intensive. I solved this problem by reducing the game's resolution and simplifying the game's graphics.
 
