@@ -9,13 +9,13 @@ published: true
 
 My game is designed to meet the objectives set out in the Leaving Certificate Computer Science Coursework Project Brief. The game is designed to be played on a desktop computer and is built using the Pygame library, which allows us to create 2D games using Python. The game follows a turn-based battle system where players choose their moves from a list of available options.
 
-The game's main menu provides options to start a new game, [-------], or exit the game. Once the player starts a new game, they are taken to the game screen where they are given 3 characters and their opponent is given 3 different characters. Each character has their own set of attributes, including health points (HP), attack, defense, and speed. The player's objective is to defeat their opponent's character by reducing their HP to zero.
+The game's main menu provides options to start a new game, [-------], or exit the game. Once the player starts a new game, they are taken to the game screen where they are given 3 characters and their opponent is given 3 different characters. Each character has their own set of attributes, including health points (HP), attack, defence, and speed. The player's objective is to defeat their opponent's character by reducing their HP to zero.
 
 During the battle, each character can choose one move from a list of two to four moves. Each move has its own type and power, which determines how much damage it will inflict on the opponent.
 
 I have designed the game to be intuitive and easy to use. The game's interface is simple and straightforward, with clear instructions provided at every stage of the game.
 
-In order to further improve the game's overall experience, I may consider adding more features to enhance the gameplay. For example, I could include a leveling system where characters gain experience points and level up after winning battles. This could unlock new moves or improve their existing attributes, making battles more challenging and rewarding as the player progresses.
+In order to further improve the game's overall experience, I may consider adding more features to enhance the gameplay. For example, I could include a levelling system where characters gain experience points and level up after winning battles. This could unlock new moves or improve their existing attributes, making battles more challenging and rewarding as the player progresses.
 
 Another idea could be to introduce items that can be used during battle, such as healing potions or power-ups that temporarily increase a character's stats. This would add an additional layer of strategy to battles and give players more options to choose from when deciding on their moves.
 
@@ -23,23 +23,29 @@ Additionally, I could consider adding several types of battles or game modes to 
 
 It is also important to ensure that the game's graphics and sound effects are engaging and visually appealing. This can help to create a more immersive experience for the player and add to the overall enjoyment of the game.
 
-In summary, there are many ways to enhance the gameplay and overall experience of r game. By adding features like a leveling system, items, different game modes, and improving the game's graphics and sound effects, I can make the game more challenging, rewarding, and entertaining for my players.
+In summary, there are many ways to enhance the gameplay and overall experience of the game. By adding features like a levelling system, items, different game modes, and improving the game's graphics and sound effects, I could make the game more challenging, rewarding, and entertaining for my players.
 
 1. Implementation (approximately 500 words)
 
-To implement my game, I used the Pygame library and Python programming language. I started by creating the game's main menu and game screen using Pygame's built-in functions for creating graphical user interfaces. I then created the character selection screen and move selection screen, as Ill as the battle system and Pokémon capture system.
+To implement my game, I used the Pygame library and Python programming language. I started by creating the game's main menu and game screen using Pygame's built-in functions for creating graphical user interfaces. I then created the character selection screen and move selection screen, as well as the battle system and Pokémon capture system.
 
-One of the main problems I encountered during the implementation was optimizing the game's performance. I wanted to ensure that the game ran smoothly on a range of different computer systems, so I had to optimize the game's graphics and code to ensure that it was not too resource-intensive. I solved this problem by reducing the game's resolution and simplifying the game's graphics.
+<img src="https://static.wikia.nocookie.net/essentialsdocs/images/7/70/Battle.png/revision/latest?cb=20220523172438" width=49%></img> <img src="https://www.giantbomb.com/a/uploads/scale_medium/0/9740/270122-pok_mon_firered_first_battle.png" width=49%></img>
+
+One of the main problems I encountered during the implementation was optimising the game's performance. I wanted to ensure that the game ran smoothly on a range of different computer systems, so I had to optimise the game's graphics and code to ensure that it was not too resource-intensive. I solved this problem by reducing the game's resolution and simplifying the game's graphics.
+
+![](https://cdn.vox-cdn.com/thumbor/aVh147IIN1VihaFayVSalRD_Bzs=/0x0:1200x2352/1200x800/filters:focal(506x1056:698x1248)/cdn.vox-cdn.com/uploads/chorus_image/image/62618757/EN_B3_TwoSpecialAttacks4.0.png)
 
 An algorithm that was essential in creating my project was the AI algorithm that I used to control the opponent's character. I used a simple decision tree algorithm to determine the opponent's moves, which ensured that the opponent's moves were not completely random.
 
-To further enhance my game development skills, I may want to consider exploring other game development frameworks and programming languages. Learning a new framework or language can broaden my skills and provide myself with new tools and techniques to create more complex and engaging games.
+To further enhance my game development skills, I may want to consider exploring other game development frameworks and programming languages. Learning a new framework or language can broaden my skills and provide me with new tools and techniques to create more complex and engaging games.
+
+![](https://diamondpearl.pokemon.com/en-us/assets/screens/guide/1/vid-pc-01.jpg)
 
 In addition to technical skills, it is also important to have a solid understanding of game design principles. This includes understanding the player's motivation, engagement, and feedback loops. I may want to consider studying game design theory and learning from existing successful games to better understand what makes a game enjoyable and engaging.
 
 Another area to consider is game monetization strategies. If I am interested in developing games as a career, it is important to understand the diverse ways games can generate revenue, such as through in-game purchases, advertisements, or subscription models. By understanding these strategies, I can design games that are both fun and profitable.
 
-Finally, testing and debugging are important aspects of game development. Testing ensures that the game is free of bugs and glitches and that the gameplay is balanced and enjoyable. I may want to consider utilizing automated testing tools and conducting user testing to gather feedback and improve the game's design.
+Finally, testing and debugging are important aspects of game development. Testing ensures that the game is free of bugs and glitches and that the gameplay is balanced and enjoyable. I may want to consider utilising automated testing tools and conducting user testing to gather feedback and improve the game's design.
 
 Overall, game development is a challenging and rewarding field that requires a combination of technical skills, game design knowledge, and business acumen. By continually learning and expanding my skill set, I can create more engaging and successful games.
 
@@ -47,7 +53,7 @@ Overall, game development is a challenging and rewarding field that requires a c
 
 I carried out extensive testing on my game to ensure that it was bug-free and playable. I tested the game on a range of different computer systems and operating systems, and I also conducted user testing to gather feedback on the game's usability.
 
-One major problem I encountered during the testing process was with the game's difficulty level. Initially, the game was too difficult, which made it frustrating for players to play. To solve this problem, I adjusted the levels of the player's Pokémon and the opponent's Pokémon. This however resulted in me having the opposite issue; the player was now able to easily defeat the AI almost every time, even with suboptimal play
+One major problem I encountered during the testing process was with the game's difficulty level. Initially, the game was too difficult, which made it frustrating for players to play. To solve this problem, I adjusted the levels of the player's Pokémon and the opponent's Pokémon. This however resulted in me having the opposite issue; the player was now able to easily defeat the AI almost every time, even with suboptimal play.
 
 I created a test table to track my test cases, expected results, and outcomes. The test table included test cases such as checking the game's compatibility with different operating systems, testing the game's performance on low-end hardware, and checking the game's AI behavior.
 
