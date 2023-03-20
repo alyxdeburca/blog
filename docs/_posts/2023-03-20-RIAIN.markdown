@@ -1,0 +1,145 @@
+---
+layout: post
+title:  "Riain"
+categories: technology vintage-computing
+published: true
+---
+
+
+# Investigation and research:
+
+_What is a game?_
+
+-A game is a structured form of play, usually undertaken for entertainment or fun and sometimes used as an educational tool. Many games are also considered to be work or art. Games are sometimes played purely for enjoyment.
+
+Below are some ideas I had considered during my investigation:
+
+- Snakes and ladders
+- Battle ships
+- Chess
+- Checkers
+- Guess who
+- Text based adventure games.
+
+_What my game will do:_
+
+My game will an abstracted version of x's and O's. I used abstraction because I wanted to keep the core aspects of the game while making the game easier to understand. I did this by allowing the user to type in the position of the cell they want to select instead of using a mouse. I use the players initials rather than a full name to keep track of the score.
+
+X and O game implementations that I already know exist:
+
+1. Google implementation of the game
+
+This uses the mouse as an input source, but it doesn't save player name to keep track of a score board.
+
+![](RackMultipart20230320-1-oglquc_html_48c2667b538cff61.png)
+
+1. playtictactoe.org
+
+The game this also used the mouse as an input source, it does however keep track of the current score during the session, but it doesn't ask for a name to keep track of the score on a leaderboard.
+
+![](RackMultipart20230320-1-oglquc_html_ef523d1ac521c6d8.png)
+
+Design
+
+My game is designed to meet the objectives set out in the Leaving Certificate Computer Science Coursework Project Brief. The game is designed to be played on a desktop computer running Windows10 or Windows11. The game was built to run in the terminal, I used asci art to allow users to play a 2D game using python. The design of the game is based on a 3 X 3 grid.
+
+The game is turn based which means:
+
+- player one goes first than player two goes,
+- player one is always X and player 2 is always O,
+- the players pick a number between 1 and 9,
+- each number is corresponding to a cell in game.
+
+The game menu provides 5 options, 3 game modes:
+
+  1. single player vs the computer,
+  2. multiplayer (single player vs another person),
+  3. simulation(computer vs computer)
+
+It also and 2 statistics options:
+
+  1. bot statistics and
+  2. player statistics.
+
+Once the game starts you will be brought into a blank board, beside the board is a legend so you know which number corresponds to each cell.
+
+- For single player you will be asked for your initials to keep track of your score, you will always be X and the bot will always be O. X will always move first and then O will move.
+- For multiplayer my game asks both players to input their initials; this too is to keep track of their score. Player one will always be X and player 2 will always be O. X will always move first than O will move.
+- For simulation it's the bot vs the bot so it doesn't need any user input, except for the amount of simulations the user wishes to run.
+
+The game was designed to be as simple as possible for the user to use. I have done this by having a legend or map beside the board so the player knows which cell corresponds to each number. I also will keep asking for input if they input a number outside of the range and I also keep asking for input if they select an already used cell.
+
+My target audience is children that play at home with family members or friends, its designed to give a gaming experience in a safe environment without concerns for online concerns in relation to child welfare. For this reason I didn't add internet connectivity , this ensures that they can only play with people in the house and cannot connect with anyone outside of the house.
+
+![](RackMultipart20230320-1-oglquc_html_fa56f9635429b2dc.png)
+
+1. Implementation + planning (around 500 words):
+
+![](RackMultipart20230320-1-oglquc_html_2269befebef5b2a1.png)
+
+I used an iterative approach to managing my software development project, I used an agile software development methodology to aid in this.
+
+Week 1: During week one I researched games and I researched python packages to help me with game development. This helped me learn more about the topic of games and game design . I used this information and the information I already knew through Coder doJo to help me. I looked at different games and once I decided on the game of Tic-tac-toe, I researched and looked at different implementations of the game.
+
+Week2-4: At this point I finished my research and started to plan on how the game would be designed. I did this by making clear and easy to follow flow charts, I decided to do this because I didn't want to get scope creep and end up uploading an unfinished project. I also laid out a rough plan for each week , this was to help me stay on track
+
+Week5-6: At this stage I concentrated on getting a simple version of the game working with just player vs player and saving this data to a file. The data held in this file would be all the moves done in the game, The winners initials and the losers initials. By the end of week 6, I achieved my objective by having a simple version of the game working. I started by drawing out the board. I did this by making a function which drew out the board using asci art and in each cell it gets the value for the cell from a dictionary. When the game starts, the dictionary have all blank values. I then have a main game function which has all the game logic inside of it. This includes making sure the player enters a valid input and checking after every move too see has a player won.
+
+Week 7-8: Since I wrote all my game logic code in functions it was easy to adapt my code for a bot to play against the player. I did this by using the random import in python which allows me to get a random number between 1 and 9. I then make sure that it's not already uses. If that cell is already used, it will generate a different random number.
+
+Week 9: I adapted my code for bot vs bot and instead of getting player input I get another random number between 1 and 9 and make sure it was the location of an empty cell.
+
+Week 10-11: I did lots of testing during these two week. I did both black- and white-box testing. From my experience with testing this project I think that black-box testing is better because during the testing I found a lot more issues that I wouldn't have found if I used white-box testing. Please refer to the testing section below.
+
+Week 12: This week was spent adding my references to the report and writing my report. I also had to make a few last minutes changes to the report because I discovered that I was over the total word count, I fixed this by rephrasing a few areas.
+
+Testing ( around 350 words):
+
+I carried out rigorous testing to make sure my game works, I firstly started with for white box testing I decided to take a more systematic approach to testing. I took note of all the different inputs a user could give and I also took note of what type of data should go into them. Then I decided to add the wrong types of data into the inputs, and observe my results. If the wrong data was accepted than it would generate an error and I would have to go fix it. If my code caught the issue and re-asked for input than my code worked. I had many iterations of this process until all my code was working. From this I discovered that it would accept a number outside of the 1-9 range and It would error, I also found out that I could give it a string input and when this happened the game would error out. I also found that I could give it a float value and when this happened it would result in error. To correct these issues, I made a function which validates my input before accepting it as input. The function will keep asking for input if its not an integer between 1 and 9. It will only return the input If the input meets the criteria.
+
+For black box testing I gave it to my younger sister and asked her to play a few games, I did this because she is similar age to my target audience. From this I discovered that I could choose cells that were already chosen, this also meant when I got to 9 moves the game would automatically end even if the game wasn't complete. To solve these errors, firstly when I get my input I do a check with the dictionary holding all the position in the board and if the cell is already chosen then the game prompts for re-input. Secondly by fixing the first problem the second problem fixed its self because if I get 9 valid inputs as moves than all the cells are used up which returns a draw if there are no winners.
+
+Test table for when asked to pick a cell:
+
+| Test Id | Input | Accept input Y/N | Pass or Fail |
+| --- | --- | --- | --- |
+| Test.1 | 1 | Y | Pass |
+| Test.2 | 10 | N | pass |
+| Test.3 | 'hello' | N | pass |
+| Test.4 | ['1','2','3'] | N | pass |
+| Test.5 | 4.2 | N | Pass |
+| Test.6 | True | N | pass |
+
+Test table when asked to choose a name:
+
+| Test id | Input | Accepted input Y/N | Pass or fail |
+| --- | --- | --- | --- |
+| Test.7 | 'hii' | N | Pass |
+| Test.8 | 8.2 | N | Pass |
+| Test.9 | 77 | Y | Pass |
+| Test.10 | 'Bo' | N | pass |
+| Test.11 | ['1','5','hi','88'] | N | pass |
+| Test.12 | 8 | N | pass |
+
+Evaluation (around 300 words):
+
+I think that overall, the project went well, I am satisfied with my implementation of the game. From looking at the project brief I believe that I have achieved all the basic and advanced requirements of the projects. I came across many setbacks when I was creating the project, but I used the skills I learned through my studies and Coder DoJo to work out the issues . I was familiar with basic python prior the project. I also had a brief knowledge of html and CSS from attending and mentoring in coder dojo.
+
+From creating this project I learned a lot, I learned how to think around a problem. I learned about testing methodologies in an agile environment. My python skills have also developed to include the basics in object orientated programming in python.
+
+Future improvements
+
+- If I had more time I would add more functionality such as the user being able to choose their preferred character (x or o).
+- I would also add different levels such as hard, medium and easy when playing against the bot this would allow me to broaden my target audience to younger children.
+
+What I Could improve on
+
+- I could have definitely managed my time better, I should have wrote a more granular plan. There was some parts of the game that took longer than they should have, for example making the simulation play and the single player against the bot. I caulk this wasted of time up to the inexperience with the programming language.
+
+If I was doing it now I would have been able to do it much quicker this would also allow me to create, test and implement more features.
+
+What if:
+
+- My what if question:
+  - Does the player who has the first move have an advantage in the outcome of the game ?
+    - To do check this I ran a simulation 100 times and graphed the results, from this I found out that the player that moves first does in fact have the advantage. From my data I discovered that if both player move randomly the player who moves first have a 70% chance of winning.
