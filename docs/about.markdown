@@ -1,21 +1,21 @@
 ---
-layout: page
 title: About
-permalink: /about/
+layout: page
+permalink: "/about/"
 ---
 
 <h2 align='center'> Hi, I'm Alyx 👋🧑🏻‍💻 </h2>
 
 <p align="center">
   <br><img src="https://github.com/alyxdeburca/alyxdeburca/raw/master/Developer.gif" width="450px"><br><br>
-  <samp> I'm a secondary school student studying Computer Science from Galway, Ireland. I'm passionate about *NIX and have used GNU/Linux based operating systems for the past 2 and a half years. Most of the projects found on my GitHub
+  <samp> I'm passionate about *NIX and have used GNU/Linux based operating systems for the past 2 and a half years. Most of the projects found on my GitHub
   </samp>
   <br>
   
 </p>
 
 <h4 align='center'>About Me ...</h4>
-  <p align='center'>I'm 18, I'm Non-Binary and my pronouns are he/they</p>
+  <p align='center'>I'm 20, and I'm studying Computer Science at the University of Galway</p>
 
 <hr>
 
