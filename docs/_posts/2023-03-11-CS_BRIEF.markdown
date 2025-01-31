@@ -1,8 +1,8 @@
 ---
+title: Leaving Cert Computer Science 2023
 layout: post
-title:  "Leaving Cert Computer Science 2023"
 categories: school, computer-science
-published: true
+published: false
 ---
 
 1. Design (approximately 400 words)

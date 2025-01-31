@@ -1,10 +1,9 @@
 ---
+title: Illiquid Items April 2023
 layout: post
-title:  "Illiquid Items April 2023"
 categories: technology
-published: true
+published: false
 ---
-
 
 | Item Name                              | Item Custom Name           | Price  | Price Combined | Item Paint Wear | Item Has Stickers/Patches                                                                                                                                              |
 |----------------------------------------|----------------------------|--------|----------------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
